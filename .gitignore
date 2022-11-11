@@ -1,0 +1,8 @@
+# virtual environment
+myvenv
+
+# database
+db.sqlite3
+
+# vscode settings
+.vscode
