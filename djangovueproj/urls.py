@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from vue_app.views import vue_page
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("", view=vue_page, name="index"),
 ]
