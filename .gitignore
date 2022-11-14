@@ -13,6 +13,9 @@ __pycache__
 # var file doesn't seem needed for git
 /var
 
+# dist file
+dist
+
 #  From vue's gitignore
 .DS_Store
 node_modules
